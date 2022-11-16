@@ -6,6 +6,10 @@ variable "profile" {
     default = "default"
 }
 
+variable "instance_name" {
+    default = "bullseye"
+}
+
 variable "blueprint_id" {
     default = "debian_11"
 }
