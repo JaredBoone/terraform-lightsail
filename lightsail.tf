@@ -1,6 +1,6 @@
-resource "aws_lightsail_domain" "my_domain" {
-  domain_name = var.domain_name
-}
+# resource "aws_lightsail_domain" "my_domain" {
+#  domain_name = var.domain_name
+# }
 
 resource "aws_lightsail_static_ip" "my_static_ip" {
   name = "${var.instance_name}-static-ip"
