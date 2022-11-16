@@ -4,6 +4,13 @@ terraform {
       version = ">= 2.0"
     }
   }
+
+  cloud {
+    organization = var.terraform_org
+    workspaces {
+      name = var.terraform_worspace
+    }
+  }
 }
 
 provider "aws" {

@@ -6,6 +6,14 @@ variable "profile" {
     default = "default"
 }
 
+variable "terraform_org" {
+    default = "example-tf-org"
+}
+
+variable "terraform_worspace" {
+    default = "example-tf-workspace"
+}
+
 variable "availability_zone" {
     default = "us-east-1a"
 }
