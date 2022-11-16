@@ -6,11 +6,11 @@ variable "profile" {
     default = "default"
 }
 
-variable "terraform_org" {
+variable "tf_cloud_org" {
     default = "example-tf-org"
 }
 
-variable "terraform_worspace" {
+variable "tf_cloud_worspace" {
     default = "example-tf-workspace"
 }
 

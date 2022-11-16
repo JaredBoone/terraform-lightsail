@@ -6,9 +6,9 @@ terraform {
   }
 
   cloud {
-    organization = var.terraform_org
+    organization = var.tf_cloud_org
     workspaces {
-      name = var.terraform_worspace
+      name = var.tf_cloud_worspace
     }
   }
 }
