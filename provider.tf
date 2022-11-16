@@ -6,9 +6,9 @@ terraform {
   }
 
   cloud {
-    organization = var.tf_cloud_org
+    organization = "jaredboone"
     workspaces {
-      name = var.tf_cloud_worspace
+      name = "terraform-lightsail"
     }
   }
 }

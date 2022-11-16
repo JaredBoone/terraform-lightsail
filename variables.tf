@@ -6,22 +6,6 @@ variable "profile" {
     default = "default"
 }
 
-variable "tf_cloud_org" {
-    default = "example-tf-org"
-}
-
-variable "tf_cloud_worspace" {
-    default = "example-tf-workspace"
-}
-
-variable "availability_zone" {
-    default = "us-east-1a"
-}
-
-variable "instance_name" {
-    default = "bullseye"
-}
-
 variable "blueprint_id" {
     default = "debian_11"
 }
