@@ -1,27 +1,27 @@
 variable "region" {
-    default = "us-east-1"
+    default = "eu-central-1"
 }
 
 variable "availability_zone" {
-    default = "us-east-1a"
+    default = "eu-central-1a"
 }
 
 variable "instance_name" {
-    default = "bullseye"
+    default = "jammy-01"
 }
 
 variable "blueprint_id" {
-    default = "debian_11"
+    default = "ubuntu_22_04"
 }
 
 variable "bundle_id" {
-    default = "small_2_0"
+    default = "micro_ipv6_3_0"
 }
 
 variable "key_pair_name" {
-    default = "keypair.pem"
+    default = "default"
 }
 
-variable "domain_name" {
-    default = "example.com"
+variable "ip_address_type" {
+    default = "ipv6"
 }
