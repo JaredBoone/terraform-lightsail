@@ -7,15 +7,15 @@ variable "availability_zone" {
 }
 
 variable "instance_name" {
-    default = "jammy-01"
+    default = "noble-01"
 }
 
 variable "blueprint_id" {
-    default = "ubuntu_22_04"
+    default = "ubuntu_24_04"
 }
 
 variable "bundle_id" {
-    default = "micro_ipv6_3_0"
+    default = "small_ipv6_3_0"
 }
 
 variable "key_pair_name" {
